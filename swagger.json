@@ -1,0 +1,1951 @@
+{
+    "swaggerVersion": "1.2",
+    "apiVersion": "0.1",
+    "basePath": "\/api",
+    "resourcePath": "\/",
+    "apis": [
+        {
+            "path": "\/",
+            "operations": [
+                {
+                    "method": "DELETE",
+                    "summary": "Delete sales funnel",
+                    "nickname": "delete_",
+                    "parameters": [],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/activity.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/activity\/context.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/activity\/contexts.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/activity\/email\/suggestion.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/activity\/email\/suggestions.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/activity\/relations.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/activity\/search\/relations.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/activity\/target.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/activity\/targets.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/activitylist.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/activitylists.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/attachment.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/attachments.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/audit.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/autoresponserule.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/autoresponserules.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/b2bcustomer.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/b2bcustomer\/email.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/b2bcustomer\/emails.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/b2bcustomer\/phone.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/b2bcustomer\/phones.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/calendar\/connection.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/calendar\/connections.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                },
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/calendarevent.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/cart.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/cart\/address.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/cart\/addresses.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/cart\/item.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/cart\/items.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/channel.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/customer.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/customer\/address.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/customer\/addresses.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/dictionary\/values.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/email.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/email\/activity\/relations.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/email\/search\/relations.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/emailcampaign\/email\/templates.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/emailnotications.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/emailorigin.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/emailtemplate.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/emailtemplates.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/file.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/files.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/magentocustomer.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/marketinglist.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/marketinglist\/segments.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/marketinglists.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/note.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/order.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/order\/address.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/order\/addresses.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/order\/item.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/order\/items.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json",
+                                "html"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/report.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/reports.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/segment.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/segments.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/systemcalendar.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/systemcalendars.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/tag.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/taggable.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/taggables.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/taxonomy.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/tracking\/website.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        },
+        {
+            "path": "\/rest\/{version}\/tracking\/websites.{_format}",
+            "operations": [
+                {
+                    "method": "OPTIONS",
+                    "summary": "Retrieve service metadata for resource",
+                    "nickname": "options_",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "version",
+                            "type": "string",
+                            "required": true
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "_format",
+                            "type": "string",
+                            "required": true,
+                            "enum": [
+                                "json"
+                            ]
+                        }
+                    ],
+                    "responseMessages": []
+                }
+            ]
+        }
+    ],
+    "models": [],
+    "produces": [],
+    "consumes": [],
+    "authorizations": []
+}
